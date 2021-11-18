@@ -50,7 +50,7 @@
           <div class="row">
             <div class="col-12">
               <h1>Steven Paul Chavez</h1>
-              <p>I have a degree in Physics and I'm currently a Ph.D candidate at DUKE University in the department of Civil and Environmental Engineering. I'm doing research on cloud modeling revisiting the most fundamental physic-chemistry foundations of aerosols interactions with water and using a moist atmospheric model of very high resolution (50m). The moist model is a 2-dimensional large eddy simulation (includes k-theory of turbulence) and solves numerically momemtun and energy conservation  in flux form (is conservative),&nbsp; diffusion associated with turbulence and&nbsp; the wind circulation mixes the atmosphere avoiding the need of parametrization of entrainment. To track the condensation of water over some aerosol I included bin microphysics,&nbsp; which requieres an initial discretized (bin) distribution of aerosol properties obtained from measurements at the ground, depending on the atmospheric condition some aerosols get wet and condense enought water to become cloud droplets. The collition    of cloud droplets of different sizes is modeled by a stochastic equation. The finals results are realistic clouds.  The main objective of my reseach is to investigate the impact of atmospheric conditions and aerosol properties in the evolution of cloud droplet distribution. Knowing the distribution of cloud droplets  is  fundamental to determinate the cloud optical properties. These&nbsp; optical properties&nbsp;impact the&nbsp; cloud albedo effect&nbsp; , which is&nbsp; &nbsp;one of the largest sources of uncertainty in climate change estimations of radiative forcing.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
+              <p>I have a degree in Physics and I'm currently a Ph.D candidate at DUKE University in the department of Civil and Environmental Engineering. I'm doing research on cloud modeling revisiting the most fundamental physic-chemistry foundations of aerosols interactions with water and using a moist atmospheric model of very high resolution (50m). The moist model is a 2-dimensional large eddy simulation (includes k-theory of turbulence) and solves numerically the momemtun and thermodynamic equations in flux form (is conservative),&nbsp; diffusion associated with turbulence and&nbsp; the wind circulation mixes the atmosphere avoiding the need of parametrization of entrainment. To track the condensation of water over some aerosol I included bin microphysics,&nbsp; which requieres an initial discretized (bin) distribution of aerosol properties obtained from measurements at the ground, depending on the atmospheric condition some aerosols get wet and condense enought water to become cloud droplets. The collition    of cloud droplets of different sizes is modeled by a stochastic equation. The finals results are realistic clouds.  The main objective of my reseach is to investigate the impact of atmospheric conditions and aerosol properties in the evolution of cloud droplet distribution. Knowing the distribution of cloud droplets  is  fundamental to determinate the cloud optical properties. These&nbsp; optical properties&nbsp;impact the&nbsp; cloud albedo effect&nbsp; , which is&nbsp; &nbsp;one of the largest sources of uncertainty in climate change estimations of radiative forcing.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
               <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
             </div>
           </div>
@@ -62,7 +62,7 @@
         <div class="row">
           <div class="col-12 text-center">
             <h1>Cloud modeling is a multi-scale challenge</h1>
-            <p>Aerosol radius except for giant aerosol are mainly in the orden of 10-9 to 10-7 m. Rain droplets are in the order of 10-3 m. And cloud droplets are in the middle , i.e.,&nbsp; &nbsp;10-6 to 10-4 m .&nbsp; &nbsp; &nbsp;Building a model that includes&nbsp; &nbsp; all those processes is a monumental project. A two step approach is commonly used to modelate precipitating clouds,&nbsp; &nbsp; &nbsp;first assume cloud droplets distributions&nbsp; and&nbsp; then focusing on the growing of precipitating particles.      However, in the case of warm clouds and rain&nbsp; &nbsp;its possible &nbsp; to solve for both clouds and precipitation using bin microphysics and a generalization of the collision processes.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+            <p>Aerosol radius except for giant aerosol are mainly in the orden of 10-9 to 10-7 m. Rain droplets are in the order of 10-3 m. And cloud droplets are in the middle , i.e.,&nbsp; &nbsp;10-6 to 10-4 m .&nbsp; &nbsp; &nbsp;Building a model that includes&nbsp; &nbsp; all those processes is a monumental project. A two step approach is commonly used to modelate precipitating clouds,&nbsp; &nbsp; &nbsp;first assume cloud droplets distributions&nbsp; and&nbsp; then focusing on the growing of precipitating particles.      However, in the case of warm clouds and rain&nbsp; &nbsp;its possible &nbsp; to solve for both clouds and precipitation using bin microphysics and a generalization of the collision processes without breakout.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
           </div>
         </div>
       </div>
@@ -146,19 +146,18 @@
         <div class="row">
           <div class="col-12 text-center">
             <h2>Previous Work</h2>
-            <p>Some observations of aerosol properties in clouds. Chavez et at., 2021 in preparation.</p>
+            <p>Rainfall measured by TRMM precipitation radar and in-situ observations linked to moist transport in the Andes foothills.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 col-12 text-center">
-            <img class="img-fluid rounded" src="images/traje_SS_Rs.gif" alt="">
-            <h4>Aerosol diameter and supersaturation</h4>
-            <h6>Size of particle respresent the diameter</h6>
-          </div>
+            <img src="images/Fig_2017.jpg" alt="" width="603" height="450" class="img-fluid rounded">
+            <h4>Rainfall and moisture flux at the eastern slopes of the Andes</h4>
+            <h6>Rainfal - elevation patterns from TRMM PR shows agreement with raingauges and Era-Interim reanalysis moisture flux.</h6></div>
           <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
-            <img class="img-fluid rounded" src="images/traje_Qc_Nis.gif" alt="">
-            <h4>Aerosol number concentration at different places outside and inside the cloud</h4>
-            <h6>Size and color of the circle represent the number concentrations at different positions and times</h6>
+            <img src="images/Fig_2020_ok.jpg" alt="" width="680" height="450" class="img-fluid rounded">
+            <h4>Diurnal cycle of rainfall associated with different precipitation systems and  change in the moisture flux patterns</h4>
+            <h6>During January and February of 2017 more rainfall associated with large duration precipitating systems (LDPS) in an interandean valley Mantaro Valley (MV) occurred due to a change in the pattern of moisture convergence over the eastern foothills of the Andes associated with the arriving of Cold Air Incursions.</h6>
           </div>
         </div>
 		  
@@ -185,7 +184,7 @@
         <div class="row">
           <div class="col-12 text-center">
             <h1>Cloud modeling for  physicists and engineers&nbsp;</h1>
-            <p>I decided to put together in a documents the&nbsp;physics first principles and some math ones which are needed and used to build the model.          I do not pretend that is infalible, but because starts from first principles, its logic and can be tracked down. I hope it can help some people to start from here and go beyond. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+            <p>I decided to put together in a document the&nbsp;physics first principles and some math ones which are needed and used to build the model.          I do not pretend that is infalible, but because starts from first principles, its logic and can be tracked down. I hope it can help some people to start from here and go beyond. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
             <button type="button" class="btn btn-success">Get in touch</button>
           </div>
         </div>
